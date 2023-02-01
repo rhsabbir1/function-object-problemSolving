@@ -11,4 +11,13 @@ var keyBord = 800;
 var myTk = 2000;
 
 var returnTk = totalCost(myTk , bottlePrice , mousePrice, keyBord);
-console.log(returnTk)
+console.log(returnTk);
+
+// km To miles 
+function kmToMiles(km){
+    const ml = km * 0.62;
+    return ml;
+}
+
+var miles = kmToMiles(12);
+console.log(miles)
