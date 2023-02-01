@@ -37,4 +37,9 @@ var calculated =sum(result , minusResult);
 console.log(calculated)
 
 
-
+function saySorry(num , nsme){
+    for(let i = 0; i<num; i++){
+        console.log(i,'I am sorry', nsme)
+    }
+}
+saySorry(10000 , "Buri")
