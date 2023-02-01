@@ -21,3 +21,20 @@ function kmToMiles(km){
 
 var miles = kmToMiles(12);
 console.log(miles)
+
+function workSpace(name){
+    var sabbir = "Hard working dettermind";
+    var ananna = 'lazy person all time usuing phone';
+    if(name === "sabbir"){
+        return sabbir;
+    }
+    else if(name === ananna){
+        return ananna;
+    }
+    else{
+        return "Didn't find";
+    }
+}
+
+const personWork = workSpace('sabbir');
+console.log(personWork)
