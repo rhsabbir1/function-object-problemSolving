@@ -17,3 +17,24 @@ function rahim(){
 
 rahim()
 
+
+function sum(num1 , num2){
+    var result = num1 + num2;
+    return result;
+}
+
+var result = sum(10, 20)
+
+
+function minus(num1 , num2){
+    var result = num1 - num2;
+    return result;
+}
+
+var minusResult = minus(20, 10)
+
+var calculated =sum(result , minusResult);
+console.log(calculated)
+
+
+
